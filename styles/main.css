@@ -37,8 +37,8 @@ nav a{
     color: purple;
 }
 
-nav a:hover{
-     color: rgb(226, 241, 9);
+.linkButton {
+    background-color: cyan;
 }
 
 @media screen and (min-width: 23em) {

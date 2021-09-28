@@ -9,15 +9,15 @@
 /** namespace. */
 var rhit = rhit || {};
 
-/** function and class syntax examples */
-rhit.functionName = function () {
-	/** function body */
-};
-
 /* Main */
 /** function and class syntax examples */
 rhit.main = function () {
 	console.log("Ready");
+    let resumeButton = document.querySelector("#resumeDownload");
+    
+    resumeButton.onclick = (event) =>{
+        
+    };
 };
 
 rhit.main();
