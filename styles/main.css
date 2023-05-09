@@ -30,6 +30,7 @@ li {
 
 #resumeDownload{
     background-color: cyan;
+    width: 8em;
 }
 
 nav a{
@@ -39,6 +40,11 @@ nav a{
 
 .linkButton {
     background-color: cyan;
+    width: 8em;
+}
+
+.courses{
+    margin-left: 2em;
 }
 
 @media screen and (min-width: 23em) {
