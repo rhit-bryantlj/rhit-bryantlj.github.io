@@ -20,10 +20,7 @@ function navClicked() {
     let navbar = document.querySelector("#myNav");
     let navMenu = document.querySelector("#navMenuButton");
     if(!navOpened){
-        if(screen.width > 700)
-            navbar.style.height = "8em"
-        else    
-            navbar.style.height = "2em"
+        navbar.style.height = "10em"
         navMenu.innerHTML= "☰ Close"
         navOpened = true;
     } else {

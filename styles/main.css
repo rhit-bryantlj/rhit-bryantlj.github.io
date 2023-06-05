@@ -33,27 +33,26 @@ li {
     color: #eef4ed;
 }
 
-#resumeDownload{
+.linkButton, #resumeDownload {
     background-color: #8da9c4;
     width: 8em;
-}
-
-.linkButton {
-    background-color: #8da9c4;
-    width: 8em;
+    font-size: 1.2em;
 }
 
 #navMenuButton {
+    grid-area: navBtn;
     margin: 1em 0 0 1em;
     background-color: #8da9c4;
     width: 8em;
+    height: 2em;
+    font-size: 1.2em;
 }
 
 nav{
     height: 0;
     overflow: hidden;
     transition: height 0.5s ease;
-    display: inline;
+    justify-content:start;
 }
 
 nav a{
@@ -135,15 +134,17 @@ body#portfolio ul#portfolioItems li {
     padding-right: 2%;
 }
 
-body#portfolio ul#portfolioItems li img {
-    max-width: 100%;
-}
+@media screen and (max-width: 500px) {
+    body{
+        font-size: small;
+    }
 
-@media screen and (min-width: 23em) {
-    body {
-        grid-template-areas:"head head"
-                            "nav main"
-                            "foot foot";
-        grid-template-rows: auto 1fr auto ;
+    #about img {
+        height: 10em;
+    }
+
+    body#portfolio ul#portfolioItems li {
+        flex-basis: 45%;
+        padding-right: 2%;
     }
 }
