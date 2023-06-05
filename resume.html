@@ -6,114 +6,107 @@
         <title>Logan Bryant's Resume</title>
         <link rel="stylesheet" href="styles/normalize.css"/>
         <link rel="stylesheet" href="styles/main.css"/>
+        <link rel="stylesheet" href="styles/bootstrap-material-design.min.css">
     </head>
     <body id="resume">
-        <nav>
+        <nav id ="myNav">
             <div class="linkBox">
                 <ul>
-                    <li>
-                        <button class="linkButton"><a href="index.html">About</a></button>
-                        </li>
-                    <li>
-                        <button class="linkButton"><a href="portfolio.html">Portfolio</a></button>
-                        </li>
-                    <li>
-                        <button class="linkButton"><a href="resume.html">Resume</a></button>
-                    </li>
-                    <li>
-                        <button id="resumeDownload"><a href="files/Resume_5_14_23.pdf" download>&dArr; Download</a></button>
-                    </li>
+                    <li><button class="linkButton"><a href="index.html">About</a></button></li>
+                    <li><button class="linkButton"><a href="portfolio.html">Portfolio</a></button></li>
+                    <li><button class="linkButton"><a href="resume.html">Resume</a></button></li>
+                    <li><button id="resumeDownload"><a href="files/Resume_5_31_23.pdf" download>&dArr; Download</a></button></li>
                 </ul>
             </div>
         </nav>
+        <button id="navMenuButton" onclick="navClicked()">☰ Menu</button>
         <main>
         <h1>Resume</h1>
-        
-<h2>Objective:</h2>	
-<p>To obtain a full-time position in the field of computer engineering or software development with a focus
-    embedded systems, IoT development, front-end development, or FPGA development.
-</p>
+        <h2>Objective:</h2>	
+        <p>To obtain a full-time position in the field of computer engineering or software development with a focus on
+            embedded systems, IoT development, front-end development, software development, or FPGA development.
+        </p>
 
-<h2>Education:</h2>	<h3><span class="degreeName">Bachelor of Science in Computer Engineering May 2023</span></h3>							             
-		<div>Rose-Hulman Institute of Technology | Terre Haute, IN | Minor in Computer Science 		            GPA: 3.43</div> 
+        <h2>Education:</h2>	<h3><span class="degreeName">Bachelor of Science in Computer Engineering May 2023</span></h3>							             
+                <div>Rose-Hulman Institute of Technology | Terre Haute, IN | Minor in Computer Science 		            GPA: 3.46</div> 
 
-<h4>Related ECE courses:</h4> <p class="courses">Internet of Things, Advanced Digital Systed Design with Verilog, Communication Networks, Computer Architecture (I, II, Advanced), Embedded Systems, 
-    Continuous-Time Signals, Electronic Device Modeling, Circuits and Systems</p>
+        <h4>Related ECE courses:</h4> <p class="courses">Internet of Things, Advanced Digital Systed Design with Verilog, Communication Networks, Computer Architecture (I, II, Advanced), Embedded Systems, 
+            Continuous-Time Signals, Electronic Device Modeling, Circuits and Systems</p>
 
-<h4>Related CS courses:</h4> <p class="courses">Data Structures and Algorithms, Web Development, Computer Networks, Operating Systems, Object-Oriented Programming, Cybercrime & Digital Forensics</p>
+        <h4>Related CS courses:</h4> <p class="courses">Data Structures and Algorithms, Web Development, Computer Networks, Operating Systems, Object-Oriented Programming, Cybercrime & Digital Forensics</p>
 
-<h2>Skills:</h2>
-<dl>
-    <dt>Software:</dt>
-    <dd>Java, C, C++, HTML, JavaScript, CSS, NodeJS, NPM, Arduino, Linux Shell\Bash, Verilog, Assembly</dd>
-    <dt>Application Experience</dt>
-    <dd>Firebase, Cadence, MATLAB, Maple, Git, MQTT, MPLAB, Eclipse, WaveForms</dd>
-    <dt>Technical Skills:</dt>
-    <dd>Bread Boarding, Soldering</dd>
-</dl> 
+        <h2>Skills:</h2>
+        <dl>
+            <dt>Software:</dt>
+            <dd>Java, C, C++, HTML, JavaScript, CSS, NodeJS, NPM, Arduino, Linux Shell\Bash, Verilog, Assembly</dd>
+            <dt>Application Experience</dt>
+            <dd>Firebase, Cadence, MATLAB, Maple, Git, MQTT, MPLAB, Eclipse, WaveForms</dd>
+            <dt>Technical Skills:</dt>
+            <dd>Bread Boarding, Soldering</dd>
+        </dl> 
 
-<h2>Experience:</h2>
-<ul>
-    <li>
-        <span class="employer">Collins Aerospace |</span>
-        <span class="title">Software Engineering Intern |</span>
-        <span class ="Location">Cedar Rapids, IA |</span>
-        <span class="dates">May, 2021 - August, 2021 | May, 2022 - November, 2022</span>
+        <h2>Experience:</h2>
         <ul>
-            <li>Experienced working in Agile environment </li>
-            <li>Utilized Jinja 2 template generator to produce reusable code</li>
-            <li>Converted C++ code into working Java replication</li>
-            <li>Worked with Ubuntu Virtual Machine as a Linux environment</li>
+            <li>
+                <span class="employer">Collins Aerospace |</span>
+                <span class="title">Software Engineering Intern |</span>
+                <span class ="Location">Cedar Rapids, IA |</span>
+                <span class="dates">May, 2021 - August, 2021 | May, 2022 - November, 2022</span>
+                <ul>
+                    <li>Experienced working in Agile environment </li>
+                    <li>Utilized Jinja 2 template generator to produce reusable code</li>
+                    <li>Converted C++ code into working Java replication</li>
+                    <li>Worked with Ubuntu Virtual Machine as a Linux environment</li>
+                </ul>
+            </li>
+            <li>
+                <span class = "employer">Rose-Hulman Ventures</span>
+                <span class = "title">Project Intern</span>
+                <span class ="Location">Terre Haute, IN |</span>
+                <span class = "dates">June, 2020 – August, 2020</span>
+                <ul>
+                    <li>Generated PCB designs with Cadence for prototype testing</li>
+                    <li>Communicated with clients to develop their ideas</li>
+                    <li>Conducted product hardware testing</li> 
+                    <li>Programmed hardware systems with MSP430 microcontrollers</li>
+                </ul>
+            </li>
         </ul>
-    </li>
-    <li>
-        <span class = "employer">Rose-Hulman Ventures</span>
-        <span class = "title">Project Intern</span>
-        <span class ="Location">Terre Haute, IN |</span>
-        <span class = "dates">June, 2020 – August, 2020</span>
-        <ul>
-            <li>Generated PCB designs with Cadence for prototype testing</li>
-            <li>Communicated with clients to develop their ideas</li>
-            <li>Conducted product hardware testing</li> 
-            <li>Programmed hardware systems with MSP430 microcontrollers</li>
-        </ul>
-    </li>
-</ul>
 
-<h2>Honors:</h2>
-<ul>
-    <li>Lilly Endowment Scholarship Award | County award received for full tuition to a university in Indiana</li>
-    <li>University of Evansville Mathematics Recognition | University recognized award| 2019</li>
-    <li>National Honor Society | Treasurer 2017 – 2019 </li>
-</ul>	
+        <h2>Honors:</h2>
+        <ul>
+            <li>Lilly Endowment Scholarship Award | County award received for full tuition to a university in Indiana</li>
+            <li>University of Evansville Mathematics Recognition | University recognized award| 2019</li>
+            <li>National Honor Society | Treasurer 2017 – 2019 </li>
+        </ul>	
 
-<h2>Activities:</h2>
-<ul>
-    <li>
-        <span class="Activity">Pi Kappa Alpha Fraternity</span>
+        <h2>Activities:</h2>
         <ul>
-            <li>Vice President of Enrichment</li>
-            <li>Brotherhood Chairman</li>
-        </ul>
-    </li>
-    <li>
-        <span class="Activity">CSERVE: Career Services and Employer Relations Volunteer</span>
-        <ul>
-            <li>Setup and serve company sponsors for Career Fair</li>
-        </ul>
-    </li>
-    <li>
-        <span class="Activity">Association of Future Alumni</span>
-        <ul>
-            <li>Connect Alumni to campus through events and homecoming</li>
-        </ul>
-    </li>
-</ul>	
+            <li>
+                <span class="Activity">Pi Kappa Alpha Fraternity</span>
+                <ul>
+                    <li>Vice President of Enrichment</li>
+                    <li>Brotherhood Chairman</li>
+                </ul>
+            </li>
+            <li>
+                <span class="Activity">CSERVE: Career Services and Employer Relations Volunteer</span>
+                <ul>
+                    <li>Setup and serve company sponsors for Career Fair</li>
+                </ul>
+            </li>
+            <li>
+                <span class="Activity">Association of Future Alumni</span>
+                <ul>
+                    <li>Connect Alumni to campus through events and homecoming</li>
+                </ul>
+            </li>
+        </ul>	
 
-        </main>
-        <footer>
-            You can email me at bryantlj (at) rose-hulman.edu
-        </footer>
-        <script src="scripts/main.js"></script>
-    </body>
+                </main>
+                <footer>
+                    You can email me at bryantlj (at) rose-hulman.edu
+                </footer>
+                <script src="scripts/main.js"></script>
+            </body>
 </html>

@@ -2,32 +2,28 @@
 <html land ="en">
     <head>
         <meta charset = "utf-8"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no"/>
         <title>Logan Bryant's Portfolio</title>
         <link rel="stylesheet" href="styles/normalize.css"/>
         <link rel="stylesheet" href="styles/main.css"/>
+        <link rel="stylesheet" href="styles/bootstrap-material-design.min.css">
     </head>
     <body id="portfolio">
-        <nav>
+        <nav id ="myNav">
             <div class="linkBox">
                 <ul>
-                    <li>
-                        <button class="linkButton"><a href="index.html">About</a></button>
-                        </li>
-                    <li>
-                        <button class="linkButton"><a href="portfolio.html">Portfolio</a></button>
-                        </li>
-                    <li>
-                        <button class="linkButton"><a href="resume.html">Resume</a></button>
-                    </li>
+                    <li><button class="linkButton"><a href="index.html">About</a></button></li>
+                    <li><button class="linkButton"><a href="portfolio.html">Portfolio</a></button></li>
+                    <li><button class="linkButton"><a href="resume.html">Resume</a></button></li>
                 </ul>
             </div>
         </nav>
+        <button id="navMenuButton" onclick="navClicked()">☰ Menu</button>
         <main>
         <h1>Portfolio</h1>
         <ul id="portfolioItems">
             <li>
-                <h2><a href="#">Senior Design: Microchip IoT Pollution Monitor</a></h2>
+                <h2><a href="project.html">Senior Design: Microchip IoT Pollution Monitor</a></h2>
                 <p>Senior design project contracted by Microchip to develop a Pollution Monitoring IoT device using thier newly developed 
                     AVR-board with an onboard cellular modem. Completed: Spring 2023.
                 </p>
