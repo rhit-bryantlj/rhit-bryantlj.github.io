@@ -20,7 +20,7 @@ function navClicked() {
     let navbar = document.querySelector("#myNav");
     let navMenu = document.querySelector("#navMenuButton");
     if(!navOpened){
-        navbar.style.height = "10em"
+        navbar.style.height = "20em"
         navMenu.innerHTML= "☰ Close"
         navOpened = true;
     } else {

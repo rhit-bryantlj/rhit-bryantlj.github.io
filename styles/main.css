@@ -33,6 +33,14 @@ li {
     color: #eef4ed;
 }
 
+.linkBox div{
+    justify-self: center;
+    text-align: center;
+    color: #eef4ed;
+    width: 8em;
+    padding-left: 1em;
+}
+
 .linkButton, #resumeDownload {
     background-color: #8da9c4;
     width: 8em;
@@ -110,6 +118,8 @@ body > main {
 
 body > footer {
     grid-area: foot;
+    justify-content: center;
+    color:#eef4ed;
 }
 
 header,footer {
@@ -132,6 +142,22 @@ body#portfolio ul#portfolioItems {
 body#portfolio ul#portfolioItems li {
     flex-basis: 48%;
     padding-right: 2%;
+}
+
+#portfolio li h2 a{
+    color: #eef4ed;
+}
+
+#portfolio li h2 a:hover{
+    color: cyan;
+}
+
+li a:hover{
+    color: cyan;
+}
+
+#project main{
+    color: #eef4ed;
 }
 
 @media screen and (max-width: 500px) {

@@ -15,10 +15,17 @@
         </header>
         <nav id ="myNav">
             <div class="linkBox">
+                <div>Page Links</div>
                 <ul>
                     <li><button class="linkButton"><a href="index.html">About</a></button></li>
                     <li><button class="linkButton"><a href="portfolio.html">Portfolio</a></button></li>
                     <li><button class="linkButton"><a href="resume.html">Resume</a></button></li>
+                </ul>
+                <div>Outside Links</div>
+                <ul>
+                    <li><button class="linkButton"><a href="mailto:ljbryant8888@gmail.com">Email Me</a></button></li>
+                    <li><button class="linkButton"><a href="https://github.com/rhit-bryantlj" target=”_blank”>Github</a></button></li>
+                    <li><button class="linkButton"><a href="https://www.linkedin.com/in/logan-bryant-803188196/" target=”_blank”>LinkedIn</a></button></li>
                 </ul>
             </div>
         </nav>
@@ -27,58 +34,60 @@
         <h1>Portfolio</h1>
         <ul id="portfolioItems">
             <li>
-                <h2><a href="project.html">Senior Design: Microchip IoT Pollution Monitor</a></h2>
+                <h2><a href="project.html?proj=SeniorDesign">Senior Design: Microchip IoT Pollution Monitor</a></h2>
                 <p>Senior design project contracted by Microchip to develop a Pollution Monitoring IoT device using thier newly developed 
                     AVR-board with an onboard cellular modem. Completed: Spring 2023.
                 </p>
             </li>
             <li>
-                <h2><a href="project.html">LED Matrix IoT Project</a></h2>
+                <h2><a href="project.html?proj=LED_Matrix">LED Matrix IoT Project</a></h2>
                 <p>IoT project consisting of monitoring room light levels to control a LED Matrix. Connected through MQTT broker to send and 
                     receive commands and data to a web page connected to MQTT through websockets. Completed: Spring 2023.
                 </p>
             </li>
             <li>
-                <h2><a href="project.html">Python Email Application</a></h2>
-                <p>Python script wrote with a GUI developed using the PySimpleGui library. Completed: Spring 2023.
+                <h2><a href="project.html?proj=PythonEmail">Python Email Application</a></h2>
+                <p>Python script wrote with a GUI developed using the PySimpleGui library. Integrates with Google mail and MIME messages 
+                    to send email using Google Apps password. Completed: Spring 2023.
                 </p>
             </li>
             <li>
-                <h2><a href="project.html">Missed Branch Instruction Buffer Architecture</a></h2>
+                <h2><a href="project.html?proj=MBIB">Missed Branch Instruction Buffer Architecture</a></h2>
                 <p>Architecture research using the Gem5 simulator to examine the addition of a buffer storing missed branches. Completed: 
                     Winter 2022-2023.
                 </p>
             </li>
             <li>
-                <h2><a href="project.html">FPGA Verilog Pong Game</a></h2>
+                <h2><a href="project.html?proj=VerilogPong">FPGA Verilog Pong Game</a></h2>
                 <p>User controlled pong game completed using Verilog language on an FPGA and displayed using VGA monitor. Completed: Fall 2023.
                 </p>
             </li>
             <li>
-                <h2><a href="project.html">Fraternity Guide Web App</a></h2>
-                <p>Web app hosted on Firebase using the built in database to create a guide for the Rose-Hulman fraternities. Completed: Fall 2021.
+                <h2><a href="project.html?proj=FratGuide">Fraternity Guide Web App</a></h2>
+                <p>Web app hosted on Firebase to create a guide for the Rose-Hulman fraternities. Utilizes the built in database on Firebase and Implemented
+                    using HTML, CSS, and JavaScript implementing an email Rest API and prototyped visually in Figma. Completed: Fall 2021.
                 </p>
             </li>
             <li>
-                <h2><a href="project.html">Accumulator Processor</a></h2>
+                <h2><a href="project.html?proj=AccumProc">Accumulator Processor</a></h2>
                 <p>Group designed multicycle accumulator with design of ISA, assembler, and datapath. Implemented in Xilinx ISE and completed 
                     using Verilog and VHDL. Completed: Spring 2021.
                 </p>
             </li>
             <li>
-                <h2><a href="project.html">Lazy Suzan Embedded System</a></h2>
-                <p>MSP430 based embedded system completed in Code Composer Studio. Completed: Winter 2020-2021.
+                <h2><a href="project.html?proj=LazySusan">Lazy Suzan Embedded System</a></h2>
+                <p>MSP432 based embedded system completed in Code Composer Studio. Incorporated a spinning tabletop using sensors so it is hands free and 
+                    accessed via RFID card with serial connection to Arduino Uno. Completed: Winter 2020-2021.
                 </p>
             </li>
             <li>
-                <h2><a href="project.html">Indiana College Navigation</a></h2>
+                <h2><a href="project.html?proj=CollegeNav">Indiana College Navigation</a></h2>
                 <p>Mapping project using aStar algorithm to find quickest path on a graph of locations given weights. Implemented using Java and Java graphics. Completed: Winter 2020-2021.
                 </p>
             </li>
         </ul>
         </main>
         <footer>
-            You can email me at ljbryant8888@gmail.com
         </footer>
         <script src="scripts/main.js"></script>
     </body>
